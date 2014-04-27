@@ -14,7 +14,7 @@
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h1 id="lets-create-a-dataframe"&gt;Lets Create a Dataframe&lt;/h1&gt;
-&lt;p&gt;The code below creates a pandas dataframe that we can use to pivot out some data. You will have to download the notebook and run it to see the final result as NBConvert cannot render it and it has to run against an open kernel. You can download the notebook at &lt;a href=""&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The code below creates a pandas dataframe that we can use to pivot out some data. You will have to download the notebook and run it to see the final result as NBConvert cannot render it and it has to run against an open kernel. You can download the notebook at &lt;a href="https://raw.githubusercontent.com/Tooblippe/insightstack-blog/gh-pages/downloads/notebooks/pandas_pivot.ipynb"&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
