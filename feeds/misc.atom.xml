@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>insightStack</title><link href="http://tooblippe.github.io/insightstack-blog/" rel="alternate"></link><link href="http://tooblippe.github.io/insightstack-blog//feeds/misc.atom.xml" rel="self"></link><id>http://tooblippe.github.io/insightstack-blog/</id><updated>2014-04-24T18:50:00-07:00</updated><entry><title>Creating Excel like interactive Pivot Tables in IPython Notebook using Pandas</title><link href="http://tooblippe.github.io/insightstack-blog/2014/04/24/pandas-pivot/" rel="alternate"></link><updated>2014-04-24T18:50:00-07:00</updated><author><name>Tobie Nortje, based on github.com/jakevdp/PythonicPerambulations</name></author><id>tag:tooblippe.github.io/insightstack-blog,2014-04-24:2014/04/24/pandas-pivot/</id><summary type="html">&lt;hr /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>insightStack</title><link href="http://tooblippe.github.io/insightstack-blog/" rel="alternate"></link><link href="http://tooblippe.github.io/insightstack-blog/feeds/misc.atom.xml" rel="self"></link><id>http://tooblippe.github.io/insightstack-blog/</id><updated>2014-04-24T18:50:00-07:00</updated><entry><title>Creating Excel like interactive Pivot Tables in IPython Notebook using Pandas</title><link href="http://tooblippe.github.io/insightstack-blog/2014/04/24/pandas-pivot/" rel="alternate"></link><updated>2014-04-24T18:50:00-07:00</updated><author><name>Tobie Nortje, based on github.com/jakevdp/PythonicPerambulations</name></author><id>tag:tooblippe.github.io/insightstack-blog,2014-04-24:2014/04/24/pandas-pivot/</id><summary type="html">&lt;hr /&gt;
 
 
 &lt;p&gt;This post will focus on using the new widget and interact functionality of IPython 2 to generate Excel like interactive pivot tables. (Well almost you will get the idea)&lt;/p&gt;
-&lt;p&gt;One idea is to write a plugin that you can call on a file or dataframe with a magic command, and then an interactive Excel Like Pivot Table is produced.&lt;/p&gt;
+&lt;p&gt;An idea is to write a plugin that you can call on a file or dataframe with a magic command, and then an interactive Excel Like Pivot Table is produced.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="/images/pivots.gif" /&gt;&lt;/p&gt;
 
 
