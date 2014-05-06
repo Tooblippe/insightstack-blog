@@ -1,5 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>insightStack</title><link href="http://tooblippe.github.io/insightstack-blog/" rel="alternate"></link><link href="http://tooblippe.github.io/insightstack-blog/feeds/misc.atom.xml" rel="self"></link><id>http://tooblippe.github.io/insightstack-blog/</id><updated>2014-05-05T18:50:00-07:00</updated><entry><title>Python Decorators - A practical application in science</title><link href="http://tooblippe.github.io/insightstack-blog/2014/05/05/decorators/" rel="alternate"></link><updated>2014-05-05T18:50:00-07:00</updated><author><name>Tobie Nortje, based on github.com/jakevdp/PythonicPerambulations</name></author><id>tag:tooblippe.github.io/insightstack-blog,2014-05-05:2014/05/05/decorators/</id><summary type="html">&lt;hr /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>insightStack</title><link href="http://tooblippe.github.io/insightstack-blog/" rel="alternate"></link><link href="http://tooblippe.github.io/insightstack-blog/feeds/misc.atom.xml" rel="self"></link><id>http://tooblippe.github.io/insightstack-blog/</id><updated>2014-05-06T18:50:00-07:00</updated><entry><title>Talk - IPython and the IPython Notebook</title><link href="http://tooblippe.github.io/insightstack-blog/2014/05/06/ipython_talk/" rel="alternate"></link><updated>2014-05-06T18:50:00-07:00</updated><author><name>Tobie Nortje, based on github.com/jakevdp/PythonicPerambulations</name></author><id>tag:tooblippe.github.io/insightstack-blog,2014-05-06:2014/05/06/ipython_talk/</id><summary type="html">&lt;hr /&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;The Python Scientific Tool Chain - A growing worldwide phenomena in open and reproducible scientific discovery, computation, research and publication.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;The IPython Notebook is an Open Source, Python web-based interactive computational environment where you can combine code execution, text, mathematics, plots and rich media into a single document.&lt;/p&gt;
+&lt;p&gt;The IPython notebook with embedded text, code, math and figures.
+These notebooks are normal files that can be shared with colleagues, converted to other formats such as HTML or PDF, etc. You can share any publicly available notebook by using the IPython Notebook Viewer service which will render it as a static web page. This makes it easy to give your colleagues a document they can read immediately without having to install anything.&lt;/p&gt;
+
+
+&lt;h1&gt;Introduction video&lt;/h1&gt;
+&lt;iframe width="550" height="350" src="//www.youtube.com/embed/H6dLGQw9yFQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h1&gt;Talk contents&lt;/h1&gt;
+&lt;p&gt;The talk will aim to introduce these tools and explore some practical interactive examples. Once completed it will be shown how easy it is to publish your work to various formats. Some of the topics covered in the talk are listed below:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;The&lt;/span&gt; &lt;span class="n"&gt;Complete&lt;/span&gt; &lt;span class="n"&gt;Talk&lt;/span&gt; &lt;span class="n"&gt;will&lt;/span&gt; &lt;span class="n"&gt;be&lt;/span&gt; &lt;span class="n"&gt;presented&lt;/span&gt; &lt;span class="n"&gt;using&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;IPython&lt;/span&gt; &lt;span class="n"&gt;Notebook&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;the stack - the growing number of critical Python scientific and visualization modules to compete with R, Mathematica and Matlab (and others).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;IPython - quick intro to the IPython interpreter and the notebook&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;notebook basics - navigate the notebook&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;notebook magic’s | special notebook commands that can be very useful&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;getting input   - as from IPython 1.00 getting input from sdtin is possible&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;local files - how to link to local files in the notebook directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;plotting  - how to create beautiful inline plots&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;interactive plots - how to interact with data and have real-time updates&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;symbolic math - quick demo of sympy model&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;pandas  - quick intro to pandas dataframe. An R like data frame for Python&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;typesetting - include markdown, Latex via MathJax&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;loading code - how to load a remote .py code file&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;customising - loading a custom css and custom matplotlib config file&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;machine learning - using the python machine learning stack. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;output formats - how to publish your work to html, pdf or jeveal.js presentation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;presenting - present all your work as is in a slide format&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;other languages - Run Ruby, R, Julia, Octave, (F# experimental)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;high performance - We can touch on the IPython Parallel/Cluster computing abilities.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Python is slow? - Look at high performance and C++ integration. &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;Examples&lt;/h1&gt;
+&lt;p&gt;The presenter and many others have blogged using the notebook. The following two blog posts have been authored using the notebook and published for consumption. Should the reader want you can download the notebooks and run them yourselves.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://tooblippe.github.io/insightstack-blog/2014/05/05/decorators/"&gt;Python Decorators - A scientific application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://tooblippe.github.io/insightstack-blog/2014/04/24/pandas-pivot/"&gt;Interactive Pivot Tables&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Leave Comments&lt;/h1&gt;
+&lt;p&gt;The comments section below should be activated. If you will be in the audience then leave me a note if there is anything else you want considered for the talk.&lt;/p&gt;
+&lt;h1&gt;Finding the source of this talk&lt;/h1&gt;
+&lt;p&gt;The complete talk will be hosted on Github. Links will be posted here after the talk.&lt;/p&gt;</summary></entry><entry><title>Python Decorators - A practical application in science</title><link href="http://tooblippe.github.io/insightstack-blog/2014/05/05/decorators/" rel="alternate"></link><updated>2014-05-05T18:50:00-07:00</updated><author><name>Tobie Nortje, based on github.com/jakevdp/PythonicPerambulations</name></author><id>tag:tooblippe.github.io/insightstack-blog,2014-05-05:2014/05/05/decorators/</id><summary type="html">&lt;hr /&gt;
 
 
 &lt;p&gt;Post by &lt;a href="https://github.com/NelisW/PythonNotesToSelf/edit/master/decorators.ipynb#"&gt;Nelis Willers&lt;/a&gt;. This Notebook will/was also presented at the &lt;a href="https://github.com/gautengpug/planning/blob/master/17_May_2014.md"&gt;Gauteng Python Users Group&lt;/a&gt;. Follow the link at the end of this post to ensure you have the latest workbook. ed&lt;/p&gt;
