@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>insightStack</title><link href="http://tooblippe.github.io/insightstack-blog/" rel="alternate"></link><link href="http://tooblippe.github.io/insightstack-blog/feeds/all-en.atom.xml" rel="self"></link><id>http://tooblippe.github.io/insightstack-blog/</id><updated>2014-05-06T18:50:00-07:00</updated><entry><title>Talk - IPython and the IPython Notebook</title><link href="http://tooblippe.github.io/insightstack-blog/2014/05/06/ipython_talk/" rel="alternate"></link><updated>2014-05-06T18:50:00-07:00</updated><author><name>Tobie Nortje, based on github.com/jakevdp/PythonicPerambulations</name></author><id>tag:tooblippe.github.io/insightstack-blog,2014-05-06:2014/05/06/ipython_talk/</id><summary type="html">&lt;hr /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>insightStack</title><link href="http://tooblippe.github.io/insightstack-blog/" rel="alternate"></link><link href="http://tooblippe.github.io/insightstack-blog/feeds/all-en.atom.xml" rel="self"></link><id>http://tooblippe.github.io/insightstack-blog/</id><updated>2014-05-16T18:50:00-07:00</updated><entry><title>Talk - Anaconda and the Conda package management system</title><link href="http://tooblippe.github.io/insightstack-blog/2014/05/16/anaconda/" rel="alternate"></link><updated>2014-05-16T18:50:00-07:00</updated><author><name>Tobie Nortje</name></author><id>tag:tooblippe.github.io/insightstack-blog,2014-05-16:2014/05/16/anaconda/</id><summary type="html">&lt;hr /&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Packages&lt;/strong&gt; - When it comes to doing scientific work it can become difficult to install some of the packages like matplotlib, IPython and sci-kit learn as you need to have the compilation environment set up properly. &lt;a href="http://www.insightstack.co.za/insightstack-software/"&gt;Anaconda&lt;/a&gt; solves this by making it possible to download a full python stack for any platform. It includes more than &lt;a href="http://docs.continuum.io/anaconda/pkgs.html"&gt;125 Python Packages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Environments&lt;/strong&gt; - When it comes to managing your packages and environments it also bundles a package manager. Enter Conda, the only package and environment control system I think I will need. Create environments. Update packages. No problem. And yes PIP and easy_install also still work.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I will take you through a presentation by Travis Oliphant from &lt;a href="http://continuum.io/"&gt;Continuum Analytics&lt;/a&gt; detailing Anaconda and Conda. &lt;/p&gt;
+&lt;p&gt;Some &lt;a href="http://www.insightstack.co.za/downloads/"&gt;Download Links&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;h1&gt;Continuum presentation&lt;/h1&gt;
+&lt;script async class="speakerdeck-embed" data-id="d13e8a702d560131840a167c283023d8" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;</summary></entry><entry><title>Talk - IPython and the IPython Notebook</title><link href="http://tooblippe.github.io/insightstack-blog/2014/05/06/ipython_talk/" rel="alternate"></link><updated>2014-05-06T18:50:00-07:00</updated><author><name>Tobie Nortje</name></author><id>tag:tooblippe.github.io/insightstack-blog,2014-05-06:2014/05/06/ipython_talk/</id><summary type="html">&lt;hr /&gt;
 
 
 &lt;blockquote&gt;
@@ -88,7 +100,7 @@ These notebooks are normal files that can be shared with colleagues, converted t
 &lt;h1&gt;Leave Comments&lt;/h1&gt;
 &lt;p&gt;The comments section below should be activated. If you will be in the audience then leave me a note if there is anything else you want considered for the talk.&lt;/p&gt;
 &lt;h1&gt;Finding the source of this talk&lt;/h1&gt;
-&lt;p&gt;The complete talk will be hosted on Github. Links will be posted here after the talk.&lt;/p&gt;</summary></entry><entry><title>Python Decorators - A practical application in science</title><link href="http://tooblippe.github.io/insightstack-blog/2014/05/05/decorators/" rel="alternate"></link><updated>2014-05-05T18:50:00-07:00</updated><author><name>Tobie Nortje, based on github.com/jakevdp/PythonicPerambulations</name></author><id>tag:tooblippe.github.io/insightstack-blog,2014-05-05:2014/05/05/decorators/</id><summary type="html">&lt;hr /&gt;
+&lt;p&gt;The complete talk will be hosted on Github. Links will be posted here after the talk.&lt;/p&gt;</summary></entry><entry><title>Python Decorators - A practical application in science</title><link href="http://tooblippe.github.io/insightstack-blog/2014/05/05/decorators/" rel="alternate"></link><updated>2014-05-05T18:50:00-07:00</updated><author><name>Tobie Nortje</name></author><id>tag:tooblippe.github.io/insightstack-blog,2014-05-05:2014/05/05/decorators/</id><summary type="html">&lt;hr /&gt;
 
 
 &lt;p&gt;Post by &lt;a href="https://github.com/NelisW/PythonNotesToSelf/edit/master/decorators.ipynb#"&gt;Nelis Willers&lt;/a&gt;. This Notebook will/was also presented at the &lt;a href="https://github.com/gautengpug/planning/blob/master/17_May_2014.md"&gt;Gauteng Python Users Group&lt;/a&gt;. Follow the link at the end of this post to ensure you have the latest workbook. ed&lt;/p&gt;
@@ -2203,7 +2215,7 @@ In&amp;nbsp;[27]:
 &lt;p&gt;The source of this notebook is available at &lt;a href="https://github.com/NelisW/PythonNotesToSelf"&gt;https://github.com/NelisW/PythonNotesToSelf&lt;/a&gt;&lt;br&gt;Feedback welcome: neliswillers at gmail.  &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;</summary></entry><entry><title>Creating Excel like interactive Pivot Tables in IPython Notebook using Pandas</title><link href="http://tooblippe.github.io/insightstack-blog/2014/04/24/pandas-pivot/" rel="alternate"></link><updated>2014-04-24T18:50:00-07:00</updated><author><name>Tobie Nortje, based on github.com/jakevdp/PythonicPerambulations</name></author><id>tag:tooblippe.github.io/insightstack-blog,2014-04-24:2014/04/24/pandas-pivot/</id><summary type="html">&lt;hr /&gt;
+&lt;/div&gt;&lt;/p&gt;</summary></entry><entry><title>Creating Excel like interactive Pivot Tables in IPython Notebook using Pandas</title><link href="http://tooblippe.github.io/insightstack-blog/2014/04/24/pandas-pivot/" rel="alternate"></link><updated>2014-04-24T18:50:00-07:00</updated><author><name>Tobie Nortje</name></author><id>tag:tooblippe.github.io/insightstack-blog,2014-04-24:2014/04/24/pandas-pivot/</id><summary type="html">&lt;hr /&gt;
 
 
 &lt;p&gt;This post will focus on using the new widget and interact functionality of IPython 2 to generate Excel like interactive pivot tables. (Well almost you will get the idea)&lt;/p&gt;
