@@ -1683,7 +1683,7 @@ init_mathjax();
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Talk - IPython and the IPython Notebook | insightStack</title>
+	<title>Building the GPUG logo. In Python Logo. | insightStack</title>
 	<meta name="google-site-verification" content="AgIAQN_qsniIQWOq659Bnhzx-LZts2FdgP1kLgtQg-k" />
 	<meta name="description" content="">
 	<meta name="author" content="Tobie Nortje">
@@ -1760,99 +1760,183 @@ init_mathjax();
 
 		<section id="content" class="thirteen columns offset-by-one">
 
-  <h3 class="article-title"><a href="/2014/05/06/ipython_talk/" title="Permalink to Talk - IPython and the IPython Notebook">Talk - IPython and the IPython Notebook</a></h3>
-  <h6 class="article-date">May 06, 2014</h6>
+  <h3 class="article-title"><a href="/2014/05/16/logo/" title="Permalink to Building the GPUG logo. In Python Logo.">Building the GPUG logo. In Python Logo.</a></h3>
+  <h6 class="article-date">May 16, 2014</h6>
   <div class="article-content">
     <hr />
 
 
 <blockquote>
-<p>The Python Scientific Tool Chain - A growing worldwide phenomena in open and reproducible scientific discovery, computation, research and publication.</p>
+<p>Logo - Man this brings back memories. I remember my first interaction with a computer when I was about 12 years old. I did math lessons on what I think was a <a href="http://en.wikipedia.org/wiki/Amiga">Commodore Amiga</a> . I looked around and found Logo installed somewhere on it. I figured it out and convinced our school in <a href="http://en.wikipedia.org/wiki/George,_Western_Cape">George</a> to buy 2 computers. I then became the Outeniqua Pre-Primary Schools first computer teacher. I coded a clock using Logo and it was running on one of the computers for about three months. People from all over came to have a look. Schools then started buying computers. They couldn't be seen to fall behind our small school you know! This was 1987/1988 - about 25 years ago! </p>
 </blockquote>
-<h1>Abstract</h1>
-<p>The IPython Notebook is an Open Source, Python web-based interactive computational environment where you can combine code execution, text, mathematics, plots and rich media into a single document.</p>
-<p>The IPython notebook with embedded text, code, math and figures.
-These notebooks are normal files that can be shared with colleagues, converted to other formats such as HTML or PDF, etc. You can share any publicly available notebook by using the IPython Notebook Viewer service which will render it as a static web page. This makes it easy to give your colleagues a document they can read immediately without having to install anything.</p>
+<p><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Amiga500_system.jpg/309px-Amiga500_system.jpg" /></p>
+<h1>Logo Programming Language</h1>
+<p>The <a href="http://en.wikipedia.org/wiki/Logo_programming_language">Logo</a> programming language was as graphical environment to teach and learn programming. You were the master of a <a href="http://en.wikipedia.org/wiki/Turtle_graphics">Turtle</a> and told it what to do. Move forward, turn left. The turtle has a pen on its belly and it draws a line wherever it goes. The picture below shows some of the steps you can do to make a rectangle</p>
+<p><img alt="" src="http://www.thesmartbean.com/wp-content/uploads/2010/08/logo_mit-300x184.png" /></p>
+<h1>Gauteng Python Users Group</h1>
+<p>We recently started the <a href="">Gautent Python Users Group</a> and we joked about creating a Pythonic logo. I remembered that the Python standard distribution comes installed with a Turtle graphics / Logo module. Here is the code and the result.</p>
+<h1>The GPUG generated Logo</h1>
+<p>Here is a small movie of the output of the script. See the poor turtle moving.</p>
+<p><img alt="logo" src="http://tooblippe.github.io/insightstack-blog/images/gpug.gif" /></p>
+<h1>Code</h1>
+<p>Here is the code, but you can also <a href="http://bit.ly/gpug_logo">Download</a> it here.</p>
+<p>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[1]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="c"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Created on Fri May 16 09:04:31 2014</span>
+<span class="sd">@author: tobie nortje @tooblippe</span>
+<span class="sd">GPUG LOGO - just for fun</span>
+<span class="sd">www.insightstack.co.za  link to blog at bottom of this page</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">turtle</span> <span class="kn">import</span> <span class="n">Turtle</span>
+
+<span class="n">t</span> <span class="o">=</span> <span class="n">Turtle</span><span class="p">()</span>
+
+<span class="c">#shorter functions names</span>
+<span class="n">l</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">left</span>
+<span class="n">r</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">right</span>
+<span class="n">f</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">fd</span>
+<span class="n">b</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">back</span>
+<span class="n">pu</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">pu</span>
+<span class="n">pd</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span> <span class="n">pd</span>
+<span class="n">pf</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">pd</span>
+<span class="n">goto</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">goto</span>
+
+<span class="c">#scaling</span>
+<span class="n">scale</span> <span class="o">=</span> <span class="mf">3.0</span> <span class="c"># scaling factor - smaller makes GPUG bigger</span>
+<span class="n">line_color</span> <span class="o">=</span> <span class="s">&#39;black&#39;</span>
+<span class="n">line_weight</span> <span class="o">=</span> <span class="s">&#39;2&#39;</span>
+
+<span class="n">t</span><span class="o">.</span><span class="n">pensize</span><span class="p">(</span><span class="n">line_weight</span><span class="p">)</span>
 
 
-<h1>Introduction video</h1>
-<iframe width="550" height="350" src="//www.youtube.com/embed/H6dLGQw9yFQ" frameborder="0" allowfullscreen></iframe>
+<span class="n">g</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">(</span><span class="n">l</span><span class="p">,</span> <span class="mi">90</span><span class="p">),</span>
+    <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">100</span><span class="p">),</span>
+    <span class="p">(</span><span class="n">l</span><span class="p">,</span> <span class="mi">90</span><span class="p">),</span>
+    <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">50</span><span class="p">),</span>
+    <span class="p">(</span><span class="n">l</span><span class="p">,</span> <span class="mi">90</span><span class="p">),</span>
+    <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">50</span><span class="p">),</span>
+    <span class="p">(</span><span class="n">pu</span><span class="p">,</span> <span class="bp">None</span><span class="p">),</span>
+    <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">50</span><span class="p">),</span>
+    <span class="p">(</span><span class="n">l</span><span class="p">,</span> <span class="mi">90</span><span class="p">),</span>
+    <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">50</span><span class="p">),</span>
+    <span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="mi">180</span><span class="p">),</span>
+    <span class="p">(</span><span class="n">pd</span><span class="p">,</span> <span class="bp">None</span><span class="p">),</span>
+    <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">100</span><span class="p">),</span>
+    <span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="mi">90</span><span class="p">),</span>
+    <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">200</span><span class="p">),</span>
+    <span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="mi">90</span><span class="p">),</span>
+    <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+   <span class="p">]</span>
 
-<h1>Talk contents</h1>
-<p>The talk will aim to introduce these tools and explore some practical interactive examples. Once completed it will be shown how easy it is to publish your work to various formats. Some of the topics covered in the talk are listed below:</p>
-<div class="highlight"><pre><span class="n">The</span> <span class="n">Complete</span> <span class="n">Talk</span> <span class="n">will</span> <span class="n">be</span> <span class="n">presented</span> <span class="n">using</span> <span class="n">the</span> <span class="n">IPython</span> <span class="n">Notebook</span><span class="p">.</span>
+<span class="n">p</span> <span class="o">=</span> <span class="p">[</span> <span class="p">(</span><span class="n">pu</span><span class="p">,</span> <span class="bp">None</span><span class="p">),</span>
+     <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span>
+     <span class="p">(</span><span class="n">pd</span><span class="p">,</span> <span class="bp">None</span><span class="p">),</span>
+     <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">100</span><span class="p">),</span>
+     <span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="mi">90</span><span class="p">),</span>
+     <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">100</span><span class="p">),</span>
+     <span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="mi">90</span><span class="p">),</span>
+     <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">100</span><span class="p">),</span>
+     <span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="mi">90</span><span class="p">),</span>
+     <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">100</span><span class="p">),</span>
+     <span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="mi">200</span><span class="p">)</span>
+     <span class="p">]</span>
+
+<span class="n">u</span> <span class="o">=</span> <span class="p">[</span> <span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="mi">90</span><span class="p">),</span>
+      <span class="p">(</span><span class="n">pu</span><span class="p">,</span> <span class="bp">None</span><span class="p">),</span>
+      <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">120</span><span class="p">),</span>
+      <span class="p">(</span><span class="n">pd</span><span class="p">,</span> <span class="bp">None</span><span class="p">),</span>
+      <span class="p">(</span><span class="n">l</span><span class="p">,</span> <span class="mi">90</span><span class="p">),</span>
+      <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">200</span><span class="p">),</span>
+      <span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="mi">200</span><span class="p">),</span>
+      <span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="mi">90</span><span class="p">),</span>
+      <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">100</span><span class="p">),</span>
+      <span class="p">(</span><span class="n">l</span><span class="p">,</span> <span class="mi">90</span><span class="p">),</span>
+      <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">200</span><span class="p">),</span>
+      <span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="mi">200</span><span class="p">),</span>
+      <span class="p">(</span><span class="n">r</span><span class="p">,</span><span class="mi">90</span><span class="p">),</span>
+      <span class="p">(</span><span class="n">pu</span><span class="p">,</span> <span class="bp">None</span><span class="p">),</span>
+      <span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">120</span><span class="p">),</span>
+      <span class="p">(</span><span class="n">pd</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+      <span class="p">]</span>
+
+<span class="c">#lets draw GPUG</span>
+
+<span class="n">gpug_logo</span> <span class="o">=</span> <span class="p">[</span> <span class="n">g</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">u</span><span class="p">,</span> <span class="n">g</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">do</span><span class="p">(</span> <span class="p">(</span><span class="n">command</span><span class="p">,</span> <span class="n">parameter</span><span class="p">)):</span>
+    <span class="k">if</span> <span class="n">command</span> <span class="o">==</span> <span class="n">f</span> <span class="ow">or</span> <span class="n">command</span> <span class="o">==</span> <span class="n">b</span><span class="p">:</span>
+        <span class="n">parameter</span> <span class="o">=</span> <span class="n">parameter</span> <span class="o">/</span> <span class="n">scale</span>
+        
+    <span class="k">if</span> <span class="n">command</span> <span class="o">==</span> <span class="n">goto</span><span class="p">:</span>
+        <span class="n">pu</span><span class="p">()</span>
+        <span class="n">command</span><span class="p">(</span> <span class="n">parameter</span><span class="p">)</span>
+        <span class="n">pd</span><span class="p">()</span>
+    <span class="k">elif</span> <span class="n">command</span> <span class="o">==</span> <span class="n">pu</span><span class="p">:</span> <span class="n">pu</span><span class="p">()</span>
+    <span class="k">elif</span> <span class="n">command</span> <span class="o">==</span> <span class="n">pd</span><span class="p">:</span> <span class="n">pd</span><span class="p">()</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">command</span><span class="p">(</span><span class="n">parameter</span><span class="p">)</span>
+        
+<span class="k">for</span> <span class="n">letter</span> <span class="ow">in</span> <span class="n">gpug_logo</span> <span class="p">:</span> 
+    <span class="k">for</span> <span class="n">command</span> <span class="ow">in</span> <span class="n">letter</span><span class="p">:</span>
+        <span class="n">do</span><span class="p">(</span><span class="n">command</span><span class="p">)</span>
+
+<span class="n">t</span><span class="o">.</span><span class="n">hideturtle</span><span class="p">()</span>
+
+
+<span class="k">print</span> <span class="s">&quot;press CTR-C to exit&quot;</span>
 </pre></div>
 
+</div>
+</div>
+</div>
 
-<ol>
-<li>
-<p>the stack - the growing number of critical Python scientific and visualization modules to compete with R, Mathematica and Matlab (and others).</p>
-</li>
-<li>
-<p>IPython - quick intro to the IPython interpreter and the notebook</p>
-</li>
-<li>
-<p>notebook basics - navigate the notebook</p>
-</li>
-<li>
-<p>notebook magic’s | special notebook commands that can be very useful</p>
-</li>
-<li>
-<p>getting input   - as from IPython 1.00 getting input from sdtin is possible</p>
-</li>
-<li>
-<p>local files - how to link to local files in the notebook directory</p>
-</li>
-<li>
-<p>plotting  - how to create beautiful inline plots</p>
-</li>
-<li>
-<p>interactive plots - how to interact with data and have real-time updates</p>
-</li>
-<li>
-<p>symbolic math - quick demo of sympy model</p>
-</li>
-<li>
-<p>pandas  - quick intro to pandas dataframe. An R like data frame for Python</p>
-</li>
-<li>
-<p>typesetting - include markdown, Latex via MathJax</p>
-</li>
-<li>
-<p>loading code - how to load a remote .py code file</p>
-</li>
-<li>
-<p>customising - loading a custom css and custom matplotlib config file</p>
-</li>
-<li>
-<p>machine learning - using the python machine learning stack. </p>
-</li>
-<li>
-<p>output formats - how to publish your work to html, pdf or jeveal.js presentation</p>
-</li>
-<li>
-<p>presenting - present all your work as is in a slide format</p>
-</li>
-<li>
-<p>other languages - Run Ruby, R, Julia, Octave, (F# experimental)</p>
-</li>
-<li>
-<p>high performance - We can touch on the IPython Parallel/Cluster computing abilities.</p>
-</li>
-<li>
-<p>Python is slow? - Look at high performance and C++ integration. </p>
-</li>
-</ol>
-<h1>Examples</h1>
-<p>The presenter and many others have blogged using the notebook. The following two blog posts have been authored using the notebook and published for consumption. Should the reader want you can download the notebooks and run them yourselves.</p>
-<ul>
-<li><a href="http://tooblippe.github.io/insightstack-blog/2014/05/05/decorators/">Python Decorators - A scientific application</a></li>
-<li><a href="http://tooblippe.github.io/insightstack-blog/2014/04/24/pandas-pivot/">Interactive Pivot Tables</a></li>
-</ul>
-<h1>Leave Comments</h1>
-<p>The comments section below should be activated. If you will be in the audience then leave me a note if there is anything else you want considered for the talk.</p>
-<h1>Finding the source of this talk</h1>
-<p>The complete talk will be hosted on Github. Links will be posted here after the talk.</p>
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+press CTR-C to exit
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb">
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></p>
+<h1>Run the code</h1>
+<p>You can download the code above, or just run the command below te get it working. If this doens't work, just download the file at <a href="http://bit.ly/gpug_logo">Here</a>. Save it and run it using Python.</p>
+<div class="highlight"><pre><span class="n">wget</span> <span class="o">-</span><span class="n">O</span> <span class="n">logo</span><span class="p">.</span><span class="n">py</span> <span class="n">http</span><span class="o">:</span><span class="c1">//bit.ly/gpug_logo  &amp;&amp; python logo.py</span>
+</pre></div>
   </div>
     
 
